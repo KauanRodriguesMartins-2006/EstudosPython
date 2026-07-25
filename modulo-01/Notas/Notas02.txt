@@ -1,0 +1,86 @@
+Revisão da Aula 1
+
+1.O que faz a função print()? "Saida de dados que imprime  o que foi posto dentro das aspas"
+
+2.Qual a diferença entre "10" e 10? "Um é texto e outro é um número"
+
+3.Linguagem python -> interpretador -> linguagem do computador
+
+=== Resposta questão 1 ===
+
+PS C:\Users\kauan\OneDrive\Desktop\python-roadmap\modulo-01> uv run aula02.py
+kauan
+nome
+
+=== Resposta questão 2 ===
+
+O que você acha que aparecerá?
+R= o valor de idade mudara, pois o código é lido de cima para baixo
+
+=== Resposta questão 3 ===
+
+PS C:\Users\kauan\OneDrive\Desktop\python-roadmap\modulo-01> uv run aula02.py
+kauan
+nome
+<class 'str'>
+
+=== Exercicio 1 ===
+
+
+print("Exercicio 01")
+nome = "Kauan"
+sobrenome = " Rodrigues"
+idade = 19
+altura = 1.76
+cidade = "Camaçari"
+profissao = "Desempregado"
+estudando = True
+print(nome)
+print(sobrenome)
+print(idade)
+print(altura)
+print(cidade)
+print(profissao)
+print(estudando)
+
+=== Exercicio 2 ===
+
+print("\nExercicio 02")
+print(type(nome))
+print(type(sobrenome))
+print(type(idade))
+print(type(altura))
+print(type(cidade))
+print(type(profissao))
+print(type(estudando))
+
+=== Exercicio 3 ===
+
+print("\nExercicio 03")
+age = 20
+print(age)
+age = 21
+print(age)
+
+=== Desafio ===
+
+print("\nDesafio")
+print("=========================")
+print("        Meu Perfil       ")
+print("=========================\n")
+print("Nome: "+ nome + sobrenome)
+print("Cidade: "+ cidade)
+print(f"Idade: {idade}" )
+print(f"Estudando python: {estudando}") 
+print("\n=========================")
+
+
+Notas
+O que é uma variável?
+R = variável é como uma mochila onde se guarda os dados
+
+Qual a diferença entre print(nome) e print("nome")?
+R = O primeiro imprime a variável nome e o segundo imprime a palavra nome
+
+Por que usamos variáveis em vez de escrever tudo diretamente no print()?
+R = Facilita reutilização  e não obriga a ter que reescrever multiplas vezes

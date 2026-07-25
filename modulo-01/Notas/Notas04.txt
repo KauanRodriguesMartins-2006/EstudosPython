@@ -1,0 +1,72 @@
+=== Revisão ===
+1. String
+
+2. Pois como input retorna string como padrão é necessario fazer a conversão para 
+outros tipos
+
+3. verifica o tipo do input(?)
+
+=== Exercicio 1 ===
+
+num1 = 5
+num2 = 8
+
+soma = num1 + num2
+subtração = num1 - num2
+multiplicacao = num1 * num2
+divisao = num1 / num2
+divisao_inteira = num1 // num2
+resto = num1 % num2
+potencia = num1 ** num2
+
+print(soma)
+print(subtração)
+print(multiplicacao)
+print(divisao)
+print(divisao_inteira)
+print(resto)
+print(potencia)
+
+Resultado:
+PS C:\Users\kauan\OneDrive\Desktop\python-roadmap\modulo-01> uv run aula04.py
+13
+-3
+40
+0.625
+0
+5
+390625
+
+=== Exercicio 2 ===
+result = num1 <= num2
+print(result)
+
+Resultado:
+PS C:\Users\kauan\OneDrive\Desktop\python-roadmap\modulo-01> uv run aula04.py
+True
+
+=== Exercicio 3 ===
+result = num2 % 2
+if result == 0:
+   print(f"O numero {num2} é par")
+
+Resultado:
+PS C:\Users\kauan\OneDrive\Desktop\python-roadmap\modulo-01> uv run aula04.py
+    O numero 8 é par
+
+=== Desafio ===
+num1 = int(input("Digite o primeiro número: "))
+num2 = int(input("Digite o segundo número: "))
+
+media = (num1 + num2) / 2
+
+print(f"Aluno\nNota 1: {num1}\nNota 2: {num2}\nMédia: {media}")
+
+Resultado:
+PS C:\Users\kauan\OneDrive\Desktop\python-roadmap\modulo-01> uv run aula04.py
+Digite o primeiro número: 8
+Digite o segundo número: 10
+Aluno
+Nota 1: 8
+Nota 2: 10
+Média: 9.0

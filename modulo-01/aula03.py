@@ -1,0 +1,13 @@
+nome = input("Qual o seu nome ? ")
+idade = int(input("Digite sua idade: "))
+altura= float(input("Qual a sua altura: "))
+cidade = input("Em qual cidade você vive ? ")
+
+print("===========================")
+print("    Cadastro de usuário    ")
+print("===========================")
+print(f"\nNome: {nome}")
+print(f"Idade: {idade} anos")
+print(f"Altura {altura} m")
+print(f"Cidade: {cidade}\n")
+print("Cadastro realizado com sucesso")

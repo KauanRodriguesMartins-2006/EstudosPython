@@ -1,0 +1,101 @@
+=== Revisão da aula 2 ===
+
+O que faz a função type()?
+R= Verifica o tipo da variavel
+
+Qual a diferença entre: print(nome) e print("nome")
+R= O primeiro imprime o que esta armazenado dentro da variavel nome e o segundo imprime a palavra nome
+
+O que significa o operador = em Python?
+R= Ele define que o que estiver na direita vai ser armazenado na variavel
+
+=== Exercicio 1 ===
+
+nome = input("Qual o seu nome ? ")
+cidade = input("Em qual cidade você vive ? ")
+
+print(f"Olá {nome}")
+print(f"Você mora em {cidade}")
+
+Resultado:
+PS C:\Users\kauan\OneDrive\Desktop\python-roadmap\modulo-01> uv run aula03.py
+Qual o seu nome ? Kauan
+Em qual cidade você vive ? Camaçari
+Olá Kauan
+Você mora em Camaçari
+
+=== Exercicio 2 ===
+
+idade = int(input("Digite sua idade: "))
+print(f"Você tem {idade} anos")
+
+Resultado:
+PS C:\Users\kauan\OneDrive\Desktop\python-roadmap\modulo-01> uv run aula03.py
+Digite sua idade: 19
+Você tem 19 anos
+
+=== Exercicio 3 ===
+nome = input("Qual o seu nome ? ")
+idade = int(input("Digite sua idade: "))
+altura= float(input("Qual a sua altura: "))
+
+print(f"\nOlá {nome}")
+print(f"Você tem {idade} anos")
+print(f"Você tem {altura} m")
+
+Resultado:
+PS C:\Users\kauan\OneDrive\Desktop\python-roadmap\modulo-01> uv run aula03.py
+Qual o seu nome ? Kauan
+Digite sua idade: 19
+Qual a sua altura: 1.76
+Em qual cidade você vive ? Camaçari
+Olá Kauan
+Você tem 19 anos
+Você tem 1.76 m
+Você mora em Camaçari
+<class 'str'>
+<class 'int'>
+<class 'float'>
+<class 'str'>
+
+
+=== Desafio ===
+
+nome = input("Qual o seu nome ? ")
+idade = int(input("Digite sua idade: "))
+altura= float(input("Qual a sua altura: "))
+cidade = input("Em qual cidade você vive ? ")
+
+print("===========================")
+print("    Cadastro de usuário    ")
+print("===========================")
+print(f"\nNome: {nome}")
+print(f"Idade: {idade} anos")
+print(f"Altura {altura} m")
+print(f"Cidade: {cidade}\n")
+print("Cadastro realizado com sucesso")
+
+Resultado:
+PS C:\Users\kauan\OneDrive\Desktop\python-roadmap\modulo-01> uv run aula03.py
+Qual o seu nome ? Kauan
+Digite sua idade: 19
+Qual a sua altura: 1.76
+Em qual cidade você vive ? Camaçari
+===========================
+    Cadastro de usuário    
+===========================
+
+Nome: Kauan
+Idade: 19 anos
+Altura 1.76 m
+Cidade: Camaçari
+
+Cadastro realizado com sucesso
+
+=== Extra ===
+
+PS C:\Users\kauan\OneDrive\Desktop\python-roadmap\modulo-01> uv --version
+uv 0.11.21 (5aa65dd7a 2026-06-11 x86_64-pc-windows-msvc)
+PS C:\Users\kauan\OneDrive\Desktop\python-roadmap\modulo-01> uv self update                                                                                                   
+info: Checking for updates...                                                                                                                                                 
+success: Upgraded uv from v0.11.21 to v0.11.26! https://github.com/astral-sh/uv/releases/tag/0.11.26   
