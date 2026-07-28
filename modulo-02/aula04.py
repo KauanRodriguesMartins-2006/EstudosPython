@@ -1,4 +1,4 @@
-import os.path
+# import os.path
 
 # # == Exercicio 01 ==
 # arquivo = open("nomes.txt","w")
