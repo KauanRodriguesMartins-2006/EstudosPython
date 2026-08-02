@@ -117,7 +117,7 @@ Sistema Escolar
 
 ---
 
-## Aula 6 ⬜
+## Aula 6 ✅
 ### Salvando JSON em arquivos
 
 - json.dump()
@@ -129,7 +129,7 @@ Sistema que salva dados em JSON.
 
 ---
 
-## Aula 7 ⬜
+## Aula 7 ✅
 ### Tratamento de erros
 
 - try
@@ -152,7 +152,7 @@ Erros comuns:
 
 ---
 
-## Projeto Final do Módulo 2 ⬜
+## Projeto Final do Módulo 2 ✅
 
 Sistema de Cadastro
 
