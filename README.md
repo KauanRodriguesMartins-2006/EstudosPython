@@ -91,7 +91,7 @@ Sistema Escolar
 
 ---
 
-# Módulo 2 — Estruturas de Dados e Arquivos 🟨
+# Módulo 2 — Estruturas de Dados e Arquivos ✅
 
 ## Aula 1 ✅
 - Tuplas
@@ -143,7 +143,7 @@ Erros comuns:
 
 ---
 
-## Aula 8 ⬜
+## Aula 8 ✅
 ### Módulos
 
 - import
@@ -166,7 +166,7 @@ Utilizando:
 
 ---
 
-# Módulo 3 — Requests e APIs ⬜
+# Módulo 3 — Requests e APIs 🟨
 
 ## Introdução às APIs
 
