@@ -1,4 +1,4 @@
-import requests
+# import requests
 
 # # == Exercicio 01 ==
 # conteudo = requests.get("https://brasilapi.com.br/api/cep/v1/42810582")
