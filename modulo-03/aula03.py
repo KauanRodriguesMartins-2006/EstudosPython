@@ -97,7 +97,7 @@
     
 #     if opc == 1:
 #         for banco in dados:
-#             print(f"Banco: {banco['name']} | Código: {banco['code']}")
+#             print(f"Banco: {banco['name']} | Código: {banco['code']}\n")
 #     elif opc == 2:
 #         print("Encerrando programa")
 #         break
