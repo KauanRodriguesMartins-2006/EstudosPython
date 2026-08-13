@@ -1,4 +1,4 @@
-import requests
+# import requests
 
 # # == Exercicio 01 ==
 # try:

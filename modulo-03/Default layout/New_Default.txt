@@ -1,0 +1,27 @@
+import requests
+menu = 10
+while True:
+    menu = int(input("""
+========================
+        Aula 08
+========================    
+
+1. Exercicio 1
+2. Exercicio 2
+3. Exercicio 3
+4. Desafio  
+5. Sair  
+                                   
+Opção escolhida: """))
+    
+    if menu == 1:
+        print()
+    elif menu == 2:
+        print("a")
+    elif menu == 3:
+        print()
+    elif menu == 4:
+        print()
+    elif menu == 5:
+        print("Encerrando programa")
+        break
