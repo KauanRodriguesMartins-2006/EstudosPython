@@ -11,44 +11,44 @@ Status:
 
 # Módulo 1 — Fundamentos do Python ✅
 
-## Aula 1
+## Aula 1 ✅
 - Variáveis
 - print()
 - Tipos de dados
 - input()
 
-## Aula 2
+## Aula 2 ✅
 - Operadores matemáticos
 - Conversão de tipos
 - Cálculos
 
-## Aula 3
+## Aula 3 ✅
 - if
 - else
 - elif
 - Operadores relacionais
 
-## Aula 4
+## Aula 4 ✅
 - Operadores lógicos
 - and
 - or
 - not
 
-## Aula 5
+## Aula 5 ✅
 - while
 - Loops
 - Contadores
 
-## Aula 6
+## Aula 6 ✅
 - break
 - continue
 - Loops controlados
 
-## Aula 7
+## Aula 7 ✅
 - for
 - range()
 
-## Aula 8
+## Aula 8 ✅
 - Strings
 - len()
 - upper()
@@ -57,31 +57,31 @@ Status:
 - replace()
 - Operador in
 
-## Aula 9
+## Aula 9 ✅
 - Listas
 - append()
 - Alteração de elementos
 - Percorrendo listas
 
-## Aula 10
+## Aula 10 ✅
 - Funções
 - def
 - Reutilização de código
 
-## Aula 11
+## Aula 11 ✅
 - Parâmetros
 - Múltiplos parâmetros
 
-## Aula 12
+## Aula 12 ✅
 - return
 - Funções que retornam valores
 
-## Aula 13
+## Aula 13 ✅
 - Escopo
 - Variáveis locais
 - Variáveis globais
 
-## Projeto Final
+## Projeto Final ✅
 Sistema Escolar
 - Cadastro de alunos
 - Listas
@@ -166,9 +166,9 @@ Utilizando:
 
 ---
 
-# Módulo 3 — Requests e APIs 🟨
+# Módulo 3 — Requests e APIs ✅
 
-## Introdução às APIs
+## Introdução às APIs ✅
 
 - O que é uma API
 - Cliente x Servidor
@@ -177,20 +177,20 @@ Utilizando:
 
 ---
 
-## Biblioteca requests
+## Biblioteca requests ✅
 
 - requests.get()
 - requests.post()
 
 ---
 
-## Trabalhando com JSON
+## Trabalhando com JSON ✅
 
 - response.json()
 
 ---
 
-## APIs públicas
+## APIs públicas ✅
 
 Projetos:
 
@@ -203,13 +203,13 @@ Projetos:
 
 ---
 
-## Projeto Final
+## Projeto Final ✅
 
 Sistema que consulta uma API e salva os resultados.
 
 ---
 
-# Módulo 4 — SQLite3 ⬜
+# Módulo 4 — SQLite3 🟨
 
 ## Banco de dados
 
