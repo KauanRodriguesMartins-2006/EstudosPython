@@ -1,8 +1,8 @@
-## Roadmap de Estudos Python → APIs → SQLite → Playwright → RPA
+# Roadmap de Estudos — Python → APIs → SQLite → POO → Playwright → RPA
 
-> Objetivo: dominar Python para automação, consumo de APIs, banco de dados e RPA.
+> Objetivo: desenvolver uma base sólida em Python para automação, consumo de APIs, bancos de dados e RPA, terminando com projetos práticos para o GitHub.
 
-Status:
+## Status
 - ✅ Concluído
 - 🟨 Em andamento
 - ⬜ Ainda não iniciado
@@ -11,366 +11,272 @@ Status:
 
 # Módulo 1 — Fundamentos do Python ✅
 
-## Aula 1
-- Variáveis
-- print()
-- Tipos de dados
-- input()
-
-## Aula 2
-- Operadores matemáticos
-- Conversão de tipos
-- Cálculos
-
-## Aula 3
-- if
-- else
-- elif
-- Operadores relacionais
-
-## Aula 4
-- Operadores lógicos
-- and
-- or
-- not
-
-## Aula 5
-- while
-- Loops
-- Contadores
-
-## Aula 6
-- break
-- continue
-- Loops controlados
-
-## Aula 7
-- for
-- range()
-
-## Aula 8
-- Strings
-- len()
-- upper()
-- lower()
-- strip()
-- replace()
-- Operador in
-
-## Aula 9
-- Listas
-- append()
-- Alteração de elementos
-- Percorrendo listas
-
-## Aula 10
-- Funções
-- def
-- Reutilização de código
-
-## Aula 11
-- Parâmetros
-- Múltiplos parâmetros
-
-## Aula 12
-- return
-- Funções que retornam valores
-
-## Aula 13
-- Escopo
-- Variáveis locais
-- Variáveis globais
+## Aulas
+- Aula 1 — Variáveis, `print()`, tipos de dados e `input()`
+- Aula 2 — Operadores matemáticos, conversão de tipos e cálculos
+- Aula 3 — `if`, `else`, `elif` e operadores relacionais
+- Aula 4 — Operadores lógicos: `and`, `or`, `not`
+- Aula 5 — `while`, loops e contadores
+- Aula 6 — `break`, `continue` e loops controlados
+- Aula 7 — `for` e `range()`
+- Aula 8 — Strings e métodos
+- Aula 9 — Listas
+- Aula 10 — Funções
+- Aula 11 — Parâmetros
+- Aula 12 — `return`
+- Aula 13 — Escopo
 
 ## Projeto Final
-Sistema Escolar
+**Sistema Escolar**
 - Cadastro de alunos
 - Listas
 - Funções
 - Menu
-- while
+- `while`
 
 ---
 
-# Módulo 2 — Estruturas de Dados e Arquivos ✅
+# Módulo 2 — Estruturas de Dados, Arquivos e Erros ✅
 
-## Aula 1 ✅
+## Conteúdos
 - Tuplas
-
-## Aula 2 ✅
 - Dicionários
-
-## Aula 3 ✅
-- Lista de dicionários
-
-## Aula 4 ✅
-- Arquivos (.txt)
-- open()
-- read()
-- write()
-- append()
-- with
-
-## Aula 5 ✅
+- Listas de dicionários
+- Arquivos `.txt`
+- `open()`, `read()`, `write()`, `append()` e `with`
 - JSON
-- json.dumps()
-- json.loads()
-
----
-
-## Aula 6 ✅
-### Salvando JSON em arquivos
-
-- json.dump()
-- json.load()
+- `json.dumps()` e `json.loads()`
+- `json.dump()` e `json.load()`
 - Persistência de dados
-
-Projeto:
-Sistema que salva dados em JSON.
-
----
-
-## Aula 7 ✅
-### Tratamento de erros
-
-- try
-- except
-- finally
-
-Erros comuns:
-- FileNotFoundError
-- ValueError
-- KeyError
-
----
-
-## Aula 8 ✅
-### Módulos
-
-- import
-- from ... import ...
-- Bibliotecas do Python
-
----
-
-## Projeto Final do Módulo 2 ✅
-
-Sistema de Cadastro
-
-Utilizando:
-
-- listas
-- dicionários
-- JSON
-- arquivos
-- tratamento de erros
-
----
-
-# Módulo 3 — Requests e APIs 🟨
-
-## Introdução às APIs
-
-- O que é uma API
-- Cliente x Servidor
-- HTTP
-- Requisições
-
----
-
-## Biblioteca requests
-
-- requests.get()
-- requests.post()
-
----
-
-## Trabalhando com JSON
-
-- response.json()
-
----
-
-## APIs públicas
-
-Projetos:
-
-- Consulta CEP
-- Consulta CNPJ
-- Consulta IP
-- Consulta endereço
-
-(BrasilAPI e outras APIs gratuitas)
-
----
+- `try`, `except` e `finally`
+- `FileNotFoundError`
+- `ValueError`
+- `KeyError`
+- Módulos e imports
 
 ## Projeto Final
-
-Sistema que consulta uma API e salva os resultados.
+**Sistema de Cadastro**
 
 ---
 
-# Módulo 4 — SQLite3 ⬜
+# Módulo 3 — Requests e APIs ✅
 
-## Banco de dados
+## Conteúdos
+- APIs
+- Cliente x servidor
+- HTTP
+- Requisições e respostas
+- Status codes
+- Biblioteca `requests`
+- `get()` e `post()`
+- Parâmetros com `params`
+- JSON
+- APIs públicas
+- `requests.Session()`
+- Headers
+- Cookies
+- `response.status_code`
+- `response.headers`
+- `response.text`
+- `response.content`
+- `response.encoding`
+- `raise_for_status()`
+- Tratamento de exceções
+- Funções para organizar consultas
+- Parâmetros e valores de retorno
 
-- SQLite
+## Projeto Final
+**Consultor API**
+
+Aplicação CLI para:
+- Consultar usuários
+- Consultar posts
+- Analisar posts
+- Gerar estatísticas
+
+---
+
+# Módulo 4 — SQLite3 🟨
+
+## Aula 1 — Introdução a Bancos de Dados
+- O que é banco de dados
 - Tabelas
 - Registros
+- Colunas
+- Chave primária
+- Banco relacional
+- SQL
+- SQLite
+- SQLite x MySQL/MariaDB
+- CRUD
 
----
+## Próximas aulas
+- `sqlite3`
+- `connect()`
+- `cursor()`
+- `execute()`
+- `commit()`
+- `close()`
+- `CREATE TABLE`
+- `INSERT`
+- `SELECT`
+- `WHERE`
+- `fetchone()`
+- `fetchall()`
+- `UPDATE`
+- `DELETE`
+- Parâmetros com `?`
+- Tratamento de erros
+- Organização do acesso ao banco
+- Integração API + SQLite
 
-## sqlite3
-
-- connect()
-- cursor()
-- execute()
-- commit()
-
----
-
-## CRUD
-
-- INSERT
-- SELECT
-- UPDATE
-- DELETE
-
----
-
-## Integração API + SQLite
-
-Projeto:
-
-Consultar API
-
-↓
-
-Salvar no banco
-
-↓
-
-Pesquisar depois
+## Projeto Final
+**Sistema de Cadastro com SQLite**
 
 ---
 
 # Módulo 5 — Programação Orientada a Objetos (POO) ⬜
 
-## Classes
+## Conteúdos
+- Classes
+- Objetos
+- Atributos
+- Métodos
+- `class`
+- `__init__`
+- `self`
+- Encapsulamento
+- `property`
+- Organização e divisão de responsabilidades
 
-## Objetos
-
-## Métodos
-
-## Atributos
-
-## Encapsulamento
-
-Projeto:
-
-Sistema organizado em classes.
-
----
-
-# Módulo 6 — Playwright ⬜
-
-## Instalação
-
-## Navegador automático
-
-## Acessando sites
-
-## Preenchendo formulários
-
-## Cliques
-
-## Esperas
-
-## Download de arquivos
-
-## Upload
-
-## Screenshots
-
-Projeto:
-
-Automação de um site real.
+## Projeto Final
+**Sistema utilizando POO + SQLite**
 
 ---
 
-# Módulo 7 — RPA ⬜
+# Módulo 6 — Bibliotecas e Organização de Projetos ⬜
 
-## Organização de projetos
+## Conteúdos
+- `pathlib`
+- `os`
+- `.venv`
+- `pyproject.toml`
+- `uv`
+- Dependências
+- Organização de diretórios
+- Módulos
+- `__init__.py`
+- Separação de responsabilidades
+- README
 
-## Logs
+## Projeto
+**Ferramenta de gerenciamento de arquivos**
 
-## Configuração
+---
 
-## Automações completas
+# Módulo 7 — Playwright ⬜
 
-Projetos:
+## Conteúdos
+- Instalação
+- Navegadores
+- Navegação
+- URLs
+- Localizadores
+- Inputs
+- Botões
+- Formulários
+- Cliques
+- Esperas
+- Download
+- Upload
+- Screenshots
 
+## Projeto Final
+**Automação de um site real**
+
+---
+
+# Módulo 8 — RPA ⬜
+
+## Conteúdos
+- Organização de automações
+- Logs
+- Tratamento de erros
+- Configurações
+- Arquivos
+- APIs
+- Banco de dados
+- Playwright
+- Automações completas
+
+## Projetos
 - Robô de consulta
 - Robô de cadastro
 - Robô de coleta de informações
-- Integração API + SQLite + Playwright
+- Robô de processamento de arquivos
+- API + SQLite + Playwright
 
 ---
 
-# Módulo 8 — Projetos para GitHub ⬜
+# Módulo 9 — Projetos para GitHub ⬜
 
-Projetos completos para portfólio.
-
-Exemplos:
-
+## Projetos sugeridos
 - Consulta CEP
 - Consulta CNPJ
 - Agenda
-- Controle Financeiro
-- Sistema Escolar
-- Cadastro de Clientes
+- Controle financeiro
+- Sistema escolar
+- Cadastro de clientes
 - Web Scraper
 - Automação de Login
 - Automação de Downloads
 - API + SQLite
 - Dashboard em terminal
+- RPA completo
+
+## Cada projeto poderá incluir
+- README
+- Dependências
+- Código organizado
+- Tratamento de erros
+- Git
+- GitHub
 
 ---
 
-# Objetivo Final
+# 🎯 Objetivo Final
 
-Ao concluir o roadmap você será capaz de:
+Desenvolver uma base capaz de:
 
-✅ Criar programas em Python.
-
-✅ Organizar projetos.
-
-✅ Consumir APIs.
-
-✅ Trabalhar com JSON.
-
-✅ Utilizar banco de dados SQLite.
-
-✅ Automatizar sites com Playwright.
-
-✅ Desenvolver RPAs completos.
-
-✅ Criar projetos reais para o GitHub.
-
-✅ Ter base suficiente para aprender frameworks como Django ou FastAPI com muito mais facilidade.
+- Criar programas em Python
+- Estruturar programas usando funções e POO
+- Trabalhar com arquivos e JSON
+- Consumir APIs
+- Tratar erros
+- Utilizar SQLite
+- Integrar APIs e bancos de dados
+- Automatizar sites com Playwright
+- Criar automações RPA
+- Organizar projetos
+- Criar projetos completos para o GitHub
+- Ter base para estudar FastAPI, Flask ou Django
 
 ---
 
-## 🚀 Progresso
+# 🚀 Progresso Atual
 
-- ✅ Módulo 01 - Fundamentos
-- ⬜ Módulo 02
-- ⬜ Módulo 03
-- ⬜ Requests
-- ⬜ Playwright
-- ⬜ Projetos de Automação
+- ✅ Módulo 1 — Fundamentos do Python
+- ✅ Módulo 2 — Estruturas de Dados, Arquivos e Erros
+- ✅ Módulo 3 — Requests e APIs
+- 🟨 Módulo 4 — SQLite3
+- ⬜ Módulo 5 — POO
+- ⬜ Módulo 6 — Bibliotecas e Organização
+- ⬜ Módulo 7 — Playwright
+- ⬜ Módulo 8 — RPA
+- ⬜ Módulo 9 — Projetos para GitHub
 
 ---
 
 ## 📌 Observação
 
-Este repositório representa minha evolução durante os estudos. Conforme eu aprender novos conceitos, novos módulos e projetos serão adicionados.
+Este roadmap representa minha evolução durante os estudos de Python. Os módulos e projetos serão atualizados conforme novos conhecimentos forem adquiridos.
