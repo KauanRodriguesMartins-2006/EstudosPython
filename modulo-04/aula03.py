@@ -1,6 +1,5 @@
 import sqlite3
 
-
 menu = 10
 while True:
     menu = int(input("""
