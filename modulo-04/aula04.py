@@ -4,7 +4,7 @@ menu = 10
 while True:
     menu = int(input("""
 ========================
-        Aula 08
+        Aula 04
 ========================    
 
 1. Exercicio 1
@@ -71,9 +71,7 @@ Opção escolhida: """))
         id_Select2 = int(input("Digite o id de um usuário: "))
         cursor2.execute("SELECT * FROM usuarios WHERE id = ?", (id_Select2,))
         usuario = cursor2.fetchone()
-        
-        
-        
+            
         if usuario:
             print(usuario)
 
