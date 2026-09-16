@@ -1,6 +1,7 @@
 import sqlite3
 
-
+conexao = sqlite3.connect("bancos/estudos.db")
+cursor = conexao.cursor()
 menu = 10
 while True:
     menu = int(input("""
@@ -27,3 +28,6 @@ Opção escolhida: """))
     elif menu == 5:
         print("Encerrando programa")
         break
+
+cursor.close()
+conexao.close()

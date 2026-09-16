@@ -93,21 +93,6 @@ Usuários encontrados:
 {data7}            
 """)
         
-        
-        
-#         O programa deve:
-
-# Buscar todos os usuários com SELECT + fetchall().
-# Calcular no Python:
-# quantidade total de usuários;
-# maior idade;
-# menor idade;
-# média das idades.
-# Pedir uma idade ao usuário.
-# Fazer uma nova consulta usando WHERE para encontrar todos os usuários daquela idade.
-# Mostrar os usuários encontrados.
-# Se não houver usuários com aquela idade, informar isso.
-# Fechar cursor e conexão.
     elif menu == 5:
         print("Encerrando programa")
         break

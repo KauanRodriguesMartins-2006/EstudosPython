@@ -179,4 +179,4 @@ Usuários: {existe} |
     
     
 cursor.close()
-cursor.close()
+conexao.close()
